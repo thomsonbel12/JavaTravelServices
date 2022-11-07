@@ -1,0 +1,278 @@
+.app__Book .app__body{
+    color: #5392fa;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px 55px;
+}
+.app__body-header{
+    width: 55%;
+    margin:  0 0 24px 0;
+}
+.app__body-header .body-header-bar{
+    display: flex;
+    height: 55px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.app__body-header .body-header-bar li{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(165, 161, 161);
+    position: relative;
+    width: 100%;
+}
+.app__body-header .body-header-bar li:first-child:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 16px;
+    z-index: -1;
+    right: -50%;
+    height: 3px;
+    background-color: #ccc;
+}
+/* .app__body-header .body-header-bar li:last-child::after{
+    content: none;
+    
+} */
+.app__body-header .body-header-bar li span.step{
+    background-color: rgb(190, 194, 201);
+    height: 32px;
+    width: 32px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+    /* padding: 12px; */
+    color: #333;
+    border-radius: 50%;
+}
+
+.app__body-header .body-header-bar li.active span.step{
+    background-color: #5392fa;
+    color: #fff;
+}
+.app__body-header .body-header-bar li.active span.step-text{
+    color: #5392fa;
+}
+
+.app__body-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.body-left-content{
+    width: 55%;
+}
+.body-left-header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: unset !important;
+}
+.body-left-header i{
+    background-color: #5392fa;
+    color: #fff;
+    height: 100%;
+    /* padding: 12px; */
+    margin: 0 24px 0 0;
+    width: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    text-align: center;
+}
+.body-left-item{
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.2);
+    /* margin: 0 12px; */
+    padding: 12px;
+    margin: 0 0 24px 0;
+}
+.user-info-check{
+    /* height: 100px; */
+    padding: 12px;
+}
+.user-info-check .user-info-header{
+    color: rgb(140, 140, 140);
+}
+.user-info-check .user-info{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.user-info-check .user-info .user-info-item{
+    width: 48%;
+    margin-bottom: 18px;
+}
+.user-info-check .user-info .user-info-item .user-info-input{
+    display: flex;
+    flex-direction: column;
+}
+.user-info-check .user-info .user-info-item .user-info-input select,
+.user-info-check .user-info .user-info-item .user-info-input input{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-top: 4px;
+}
+.user-info-check .user-info .user-info-item .user-info-input select:hover,
+.user-info-check .user-info .user-info-item .user-info-input input:hover{
+    box-shadow: rgb(0 0 0 / 20%) 0px 1px 6px 2px;
+}
+
+.user-info-check .user-info .user-info-item .user-info-input select:focus,
+.user-info-item .user-info-input input:focus{
+    outline: 2px solid #5392fa;
+    box-shadow: rgb(0 0 0 / 20%) 0px 1px 6px 2px;
+}
+.body-left-submit-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.body-right-content{
+    /* width: 55%; */
+    width: 43%;
+    /* height: 100%; */
+}
+.body-right-item{
+    box-shadow:  0 7px 25px rgb(0 0 0 / 20%)
+}
+.right-room-summary .right-room-header{
+    height: 60px;
+    /* line-height: 60px; */
+    padding-left: 12px;
+    border-bottom: 1px solid #cccccc;
+    background-color: #f5fffe;
+    font-size: 14px;
+    margin-bottom: 24px;
+
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.right-room-summary .right-room-header .right-room-header-num-room{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-room-summary .right-room-list{
+    /* border: 1px solid #ccc; */
+    width: 100%;
+}
+.right-room-summary .right-room-list .right-room-tag{
+    display: flex;
+    align-items: center;
+}
+.right-room-summary .right-room-list .room-content{
+    border-bottom: 2px solid rgb(158, 158, 158);
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.2);
+
+    padding: 21px 14px;
+    margin: 12px 0;
+}
+.room-content .room-content-header .room-tag-item{
+    /* color: rgb(178, 178, 178); */
+    font-size: 14px;
+    
+}
+.room-content-body{
+    margin-top: 12px;
+    font-size: 13px;
+}
+
+.room-content-body .room-body-item{
+    margin-bottom: 12px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+.room-content-body .room-img-name{
+    display: flex;
+    height: 100px;
+    /* justify-content: space-between; */
+}
+.room-content-body .room-img-name .room-img{
+    height: 100px;
+    width: 110px;
+    position: relative;
+    margin-right: 8px;
+}
+.room-img-name .room-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    object-fit: cover;
+
+    /* outline: 1px solid #ccc; */
+}
+.room-content-body .room-img-name .room-name-money{
+    font-size: 15px;
+    width: 80%;
+    max-height: 98.5px;
+    word-break: break-all;
+    overflow: hidden;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.room-img-name .room-name-money .room-name{
+    max-height: 50%;
+    overflow: hidden;
+
+}
+
+.room-content-body .room-date i,
+.room-content-body .room-people i,
+.room-name-money .room-money i,
+.room-total-money i{
+    /* display: block; */
+    width: 24px;
+    /* margin-right: 12px; */
+}
+.room-content-body .room-date,
+.room-content-body .room-people,
+.room-total-money{
+    /* letter-spacing: 0.5px; */
+    /* justify-content: space-between; */
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin: 8px 0;
+}
+.room-date input{
+    width: 75px;
+    border: none;
+    text-align: center;
+    background-color: transparent;
+}
+.room-content-body .room-people{
+    display: unset;
+}
+
+.room-content-body .room-book-detail{
+    display: flex;
+    flex-direction: column;
+
+    /* padding: 12px 0 0 0 ; */
+    margin: unset;
+    border-top: 2px solid #ccc;
+}
+
+.room-total-money{
+    /* width: 100%; */
+    /* min-width: 40%; */
+    /* text-align: right; */
+    /* display: flex; */
+    align-self: flex-end;
+    font-size: 15px;
+}

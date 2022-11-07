@@ -1,0 +1,180 @@
+/* app__main là trang chủ */
+
+/* .app__main .app__header div:first-child{
+    flex: 1;
+} */
+.app__header .app__header-logo{
+    flex: 1;
+}
+/* .app__header .app__header-user{ */
+    /* display: flex; */
+    /* flex: 2; */
+/* } */
+
+.app__header .app__header-option{
+    /* flex: 0; */
+    /* display: flex; */
+    font-size: 18px;
+    color: rgb(207, 32, 97);
+    height: 77px;
+    /* text-align: center; */
+    width: 21%;
+    display: flex;
+    align-items: center;
+}
+.app__header .app__header-option .shopping_cart i{
+    /* height: 77px; */
+    margin-left: 18px;
+    cursor: pointer;
+    width: 80px;
+    text-align: center;
+    position: relative;
+    font-size: 24px;
+}
+.app__header .app__header-option .shopping_cart .cart-item-number{
+    content: "3";
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    top: -15px;
+    right: 10px;
+    background-color: rgb(207, 32, 97);
+    font-size: 10px;
+    line-height: 25px;
+    /* margin: auto; */
+    /* border: 1px solid rgb(238, 117, 161); */
+    border-radius: 50%;
+    color: #fff;
+}
+.app__header .app__header-option span:hover i{
+    opacity: 0.6;
+}
+
+.app__header-option .shopping_cart{
+    position: relative;
+
+}
+.app__header-option .shopping_cart::after{
+    content: "";
+    position: absolute;
+    left: 10px;
+    bottom: -24px;
+    background-color: transparent;
+    height: 25px;
+    width: 90px;
+    cursor: pointer;
+    /* z-index: 0; */
+}
+.app__header-option .shopping_cart .shopping_cart-items{
+    position: absolute;
+    background-color: #e9f5fa;
+    width: 500px;
+    /* height: 100px; */
+    box-shadow: rgb(0 0 0 / 20%) 0px 1px 6px 2px;
+    right: 0px;
+    top: 40px;
+    border-radius: 5px;
+    z-index: 2;
+    
+    display: none;
+    opacity: 0;
+
+}
+.app__header-option .shopping_cart .shopping_cart-items .cart-list{
+    overflow-y: auto;
+    max-height: 267px;
+
+}
+.app__header-option .shopping_cart .shopping_cart-items::before{
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: 28px;
+    width: 1px;
+    height: 1px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #e9f5fa;;
+}
+.app__header-option .shopping_cart:hover .shopping_cart-items{
+    /* opacity: 0.6; */
+    display: block;
+    opacity: 1;
+    animation: fadeIn ease 0.5s;
+}
+.app__header-option .shopping_cart .shopping_cart-items .cart-text,
+.app__header-option .shopping_cart .shopping_cart-items .cart-item{
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-weight: 700;
+}
+/* .app__header-option .shopping_cart .shopping_cart-items .cart-text{
+} */
+.app__header-option .shopping_cart .shopping_cart-items .cart-item{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.app__header-option .shopping_cart .shopping_cart-items .cart-item:hover{
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+    
+}
+.app__header-option .shopping_cart .shopping_cart-items .cart-item:hover .cart-item-name{
+    text-decoration: underline;
+}
+.shopping_cart .shopping_cart-items .cart-item .cart-item-img{
+    position: relative;
+
+    /* top: 0; */
+    height: 50px;
+    width: 15%;
+    object-fit: cover;
+    
+}
+.shopping_cart .shopping_cart-items .cart-item .cart-item-img img{
+    object-fit: cover;
+    background-position: center;
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* margin: auto; */
+    width: 100%;
+    height: 100%;
+}
+.shopping_cart .shopping_cart-items .cart-item .cart-item-detail{
+    width: 80%;
+    margin-left: 12px;
+    font-size: 12px;
+    color: #aaa;
+}
+.shopping_cart-items .cart-item .cart-item-detail .cart-item-name{
+    /* font-size: 12px; */
+    font-weight: 700;
+    color: rgb(16, 131, 194);
+}
+.shopping_cart .shopping_cart-items .cart-item .cart-item-detail .cart-item-desc{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.shopping_cart .shopping_cart-items .cart-item .cart-item-detail .cart-item-desc .cart-item-date{
+    width: 40%;
+}
+.shopping_cart-items .cart-item .cart-item-detail .cart-item-desc .cart-item-people{
+    width: 35%;
+}
+.shopping_cart-items .cart-item .cart-item-detail .cart-item-desc .cart-item-money{
+    font-weight: 700;
+    color: rgb(238, 117, 161);
+    /* width: 40%; */
+}
+
+.app__header-option .shopping_cart .shopping_cart-items .cart-item-detail-link{
+    color: #aaa;
+    font-size: 14px;
+    font-weight: 500;
+}

@@ -1,0 +1,46 @@
+.app__Checkout .app__body{
+    color: #5392fa;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px 55px;
+}
+.app__body-header .body-header-bar li:first-child:after{
+    
+    background-color: #5392fa;
+}
+
+.body-left-content .pay_method{
+    padding: 0;
+    /* display: ; */
+}
+.body-left-content .pay_method .payment_header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px;
+    /* margin-bottom: 12px; */
+    outline: 2px solid #ccc;
+    position: relative;
+    background-color: #dde9fd;
+}
+.body-left-content .pay_method .payment_header > input{
+    outline: 2px solid #fff;
+}
+.body-left-content .pay_method .payment_header label::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+.body-left-content .pay_method .payment_header:hover{
+    background-color: rgb(231, 230, 230);
+}
+
+.body-left-content .pay_method .payment_detail{
+    width: 100%;
+    /* height: 200px; */
+    padding: 0 16px 16px 16px;
+}

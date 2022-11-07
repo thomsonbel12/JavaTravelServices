@@ -1,0 +1,40 @@
+.app__body .left-menu-cart-list {
+    background-color: unset;
+    border-right: unset;
+    font-weight: unset;
+}
+
+.app__body .left-menu-cart-list a {
+    color: #5392fa;
+}
+
+.app__body .left-menu-history-list {
+    background-color: #f8f7f9;
+    border-right: 4px solid #5392fa;
+    font-weight: 700;
+}
+
+.app__body .left-menu-history-list a {
+    color: #333;
+}
+
+.app__myHistory .app__header {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.app__myHistory .app__body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 24px; */
+    font-size: 18px;
+    padding-left: 18px;
+
+    min-height: 600px;
+    align-items: unset;
+    color: #5392fa;
+    position: relative;
+    top: 77px;
+}

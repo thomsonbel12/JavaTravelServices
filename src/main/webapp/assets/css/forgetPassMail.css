@@ -1,0 +1,67 @@
+/* *{
+    color: rgb(207, 32, 97) !important;
+
+    border-color: rgb(207, 32, 97) !important;
+} */
+.app__forgetpassMail .app__body-login-method-list{
+    /* justify-content: center; */
+    width: 100%;
+}
+.app__forgetpassMail .app__body_login-select {
+    width: 100%;
+    text-align: center;
+}
+.app__forgetpassMail .app__body-login-btn{
+    width: 100%;
+}
+/* .app__forgetpassMail .app__body-input-login-btn{
+    background-color: transparent;
+} */
+.app__forgetpassMail .app__body-input-bottom{
+
+    height: auto !important;
+}
+.app__forgetpassMail .app__body-input-option{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.app__forgetpassMail .app__body-input-code{
+    display: flex;
+    width: 100%;
+    flex-direction: row !important;
+    justify-content: space-between;
+    transition: 0.5s;
+    animation: fadeIn 0.5s ease;
+    height: 100%;
+}
+.app__forgetpassMail .app__body-input-code span:first-child{
+    width: 78%;
+    /* width: 100%; */
+}
+.app__forgetpassMail .app__body-input-code span:last-child{
+    border: 1px solid #5392fa;
+    display: flex;
+    justify-content: center;
+    /* height: 100%; */
+    width: 20%;
+    border-radius: 5px;
+    /* display: none; */
+}
+.app__forgetpassMail .app__body-input-code a{
+    color: #5392fa;
+    line-height: 64px;
+    text-align: center;
+    /* height: 100%; */
+    width: 100%;
+
+}
+.app__forgetpassMail .app__body-input-code a:hover{
+    /* text-decoration: underline; */
+    background-color: #5392fa;
+    color: #fff;
+}
+.login-error{
+    display: none;
+}

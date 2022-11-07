@@ -1,0 +1,39 @@
+#HaveTo_Login {
+    display: table;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+#Form_HaveTo_Login {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(234, 234, 234);
+    border-radius: 10px;
+}
+
+#Header_Form_HaveTo_Login {
+    margin: 0;
+    padding: 22px;
+    background-color: rgb(255, 156, 156);
+    border-radius: 10prgb (216, 62, 62);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#Body_Form_HaveTo_Login {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn_Login,
+.btn_Cancel {
+    font-size: 15px;
+    width: 40%;
+    min-width: 100;
+}

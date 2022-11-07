@@ -1,0 +1,15 @@
+.app__checkin .app__body #rooms_infomation .room{
+    height: 100%;
+}
+.app__checkin .option_btn{
+    height: 253px;
+    
+    font-size: 12px !important;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.app__checkin .option_btn button{
+    width: 100% !important;
+}

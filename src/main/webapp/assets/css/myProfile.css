@@ -1,0 +1,204 @@
+.app__body .left-menu-cart-list {
+  background-color: unset;
+  border-right: unset;
+  font-weight: unset;
+}
+
+.app__body .left-menu-cart-list a {
+  color: #5392fa;
+}
+
+.app__myProfile .app__header {
+  position: fixed;
+  width: 100%;
+}
+
+.app__myProfile .app__body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 18px;
+  padding-left: 18px;
+
+  min-height: 1000px;
+  align-items: unset;
+  color: #02132e;
+  position: relative;
+  top: 77px;
+}
+
+.app__body .left-menu-profile {
+  background-color: #f8f7f9;
+  border-right: 4px solid #5392fa;
+  font-weight: 700;
+}
+
+.app__body .left-menu-profile a {
+  color: #333;
+}
+
+.app__body .right-content-body .user-information {
+  margin-left: 50px;
+}
+
+.app__body .right-content-body .user-information .user_inf_item {
+  /* margin-left: 50px; */
+  border-right: 1px solid #ddd;
+  /* box-shadow: 7px 0 8px #e9ebee; */
+  background: linear-gradient(90deg, #6abdfd, rgb(184 239 255));
+  height: auto;
+  /* margin: 10px; */
+  padding: 20px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.app__body .right-content-body .user-information .user_inf_item:hover{
+  box-shadow: rgb(0 0 0 / 20%) 0px 1px 6px 2px;
+
+}
+.app__body .right-content-body .user-information .user_name_inf_left {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+}
+
+.app__body .right-content-body .user-information .user_name_inf_left .img_user_inf {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 12px;
+}
+
+.app__body .right-content-body .user-information .user_name_inf_left .img_inf {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.display_label {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.app__body .right-content-body .user-information .user_name_inf_left .display_name {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 55px;
+}
+
+.app__body .right-content-body .user-information .user_name_inf .edit_username_inf {
+  display: block;
+  float: right;
+}
+
+.app__body .right-content-body .user-information .phone_number_inf .edit_phone_number_inf {
+  display: block;
+  float: right;
+}
+
+.app__body .right-content-body .user-information .password_inf .edit_password_inf {
+  display: block;
+  float: right;
+}
+
+.app__body .right-content-body .user-information .user_email_inf .edit_email_inf {
+  display: block;
+  float: right;
+}
+
+.app__body .right-content-body .text_content_inf {
+  color: rgb(91, 73, 73);
+}
+
+.app__body .right-content-body .edit_item {
+  /* padding: 40px 50px; */
+  padding: 20px;
+  margin: 10px 0 0 0;
+  box-shadow: 7px 0 8px #e9ebee;
+  background: linear-gradient(90deg, #c4e5ff, #fff);
+  border-radius: 8px;
+}
+
+.app__body .right-content-body .edit_item label {
+  /* margin-bottom: 12px; */
+  font-weight: 600;
+  /* color: #fff ; */
+}
+
+.app__body .right-content-body .edit_item .pass_input {
+  position: relative;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.app__body .right-content-body .edit_item .pass_input i{
+  position: absolute;
+  /* left: 0; */
+  right: 20px;
+  top: 28px;
+  /* bottom: 0; */
+  margin: auto 0;
+  /* text-align: center; */
+  cursor: pointer;
+}
+
+.app__body .right-content-body .edit_item input {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  /* outline: #75a8f9; */
+  /* outline-color: #75a8f9; */
+  /* outline: 1px solid #5392fa; */
+  border: 1px solid #ccc;
+  background-color: #f8f7f9;
+  border-radius: 5px;
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+}
+
+.app__body .right-content-body .edit_item input:focus {
+  outline: 2px solid #5392fa;
+  box-shadow: rgb(0 0 0 / 20%) 0px 1px 6px 2px;
+}
+
+/* .app__body .right-content-body .edit_item .btn_xacnhan_huy { */
+  /* float: right; */
+  
+/* } */
+
+.user-content {
+  /* background-color: #5392fa; */
+  height: auto;
+  margin: 30px 0;
+}
+.user-content:hover{
+  box-shadow: rgb(0 0 0 / 20%) 0px 1px 6px 2px;
+  border-radius: 8px;
+
+}
+.user_inf_left {
+  display: flex;
+  flex-direction: column;
+  height: 55px;
+  justify-content: space-around;
+}
+
+.user_inf_left input{
+  border: none;
+  outline: none;
+  background: transparent;
+}
